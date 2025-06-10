@@ -26,7 +26,7 @@ function handleTryAgain() {
 // 構建圖片路徑
 const resultImagePath = computed(() => {
   if (!result.value || !result.value.img) return ''
-  return `/src/assets/images/${result.value.img}`
+  return `/${result.value.img}`
 })
 
 // 設置 Intersection Observer
