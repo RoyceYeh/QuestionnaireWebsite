@@ -1,0 +1,204 @@
+{
+  "title": "心靈探索之旅",
+  "description": "了解自己，發現無限可能",
+  "stages": [
+    {
+      "id": "exploration",
+      "name": "探索階段",
+      "description": "這個階段將幫助你了解自己如何面對未知和新事物",
+      "color": "#3B82F6",
+      "question": {
+        "id": "q1_travel",
+        "text": "你最喜歡的旅行方式是什麼？",
+        "options": [
+          {
+            "id": "q1_opt1",
+            "text": "事先計劃好所有細節",
+            "points": { "planner": 3, "adventurer": 0, "observer": 1, "innovator": 0 }
+          },
+          {
+            "id": "q1_opt2",
+            "text": "有大致方向，但保留即興空間",
+            "points": { "planner": 1, "adventurer": 2, "observer": 0, "innovator": 1 }
+          },
+          {
+            "id": "q1_opt3",
+            "text": "隨心所欲，看哪裡有趣就去哪裡",
+            "points": { "planner": 0, "adventurer": 3, "observer": 0, "innovator": 2 }
+          },
+          {
+            "id": "q1_opt4",
+            "text": "跟隨當地人的建議探索非旅遊景點",
+            "points": { "planner": 0, "adventurer": 2, "observer": 1, "innovator": 2 }
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenge",
+      "name": "挑戰階段",
+      "description": "這個階段探索你面對挑戰和困難時的反應和策略",
+      "color": "#10B981",
+      "question": {
+        "id": "q2_challenge",
+        "text": "面對未知挑戰，你通常會怎麼做？",
+        "options": [
+          {
+            "id": "q2_opt1",
+            "text": "尋求他人的建議和幫助",
+            "points": { "planner": 1, "adventurer": 0, "observer": 2, "innovator": 1 }
+          },
+          {
+            "id": "q2_opt2",
+            "text": "分析情況，制定詳細計劃",
+            "points": { "planner": 3, "adventurer": 0, "observer": 1, "innovator": 0 }
+          },
+          {
+            "id": "q2_opt3",
+            "text": "直接面對，相信自己能即時應對",
+            "points": { "planner": 0, "adventurer": 3, "observer": 0, "innovator": 1 }
+          },
+          {
+            "id": "q2_opt4",
+            "text": "嘗試創新的解決方法",
+            "points": { "planner": 0, "adventurer": 1, "observer": 0, "innovator": 3 }
+          }
+        ]
+      }
+    },
+    {
+      "id": "reflection",
+      "name": "反思階段",
+      "description": "這個階段幫助你回顧過去的經歷，了解自己的成長",
+      "color": "#8B5CF6",
+      "question": {
+        "id": "q3_growth",
+        "text": "過去一年中，什麼經歷讓你成長最多？",
+        "options": [
+          {
+            "id": "q3_opt1",
+            "text": "克服了一個重大挑戰或困難",
+            "points": { "planner": 1, "adventurer": 2, "observer": 0, "innovator": 1 }
+          },
+          {
+            "id": "q3_opt2",
+            "text": "學習了新技能或知識",
+            "points": { "planner": 2, "adventurer": 0, "observer": 1, "innovator": 1 }
+          },
+          {
+            "id": "q3_opt3",
+            "text": "深入了解了自己的情感和思維模式",
+            "points": { "planner": 0, "adventurer": 0, "observer": 3, "innovator": 1 }
+          },
+          {
+            "id": "q3_opt4",
+            "text": "嘗試了全新的體驗或環境",
+            "points": { "planner": 0, "adventurer": 3, "observer": 0, "innovator": 1 }
+          }
+        ]
+      }
+    },
+    {
+      "id": "vision",
+      "name": "展望階段",
+      "description": "這個階段探索你的目標和未來期望",
+      "color": "#F59E0B",
+      "question": {
+        "id": "q4_future",
+        "text": "一年後，你希望自己有什麼改變？",
+        "options": [
+          {
+            "id": "q4_opt1",
+            "text": "生活和工作更有條理和效率",
+            "points": { "planner": 3, "adventurer": 0, "observer": 0, "innovator": 0 }
+          },
+          {
+            "id": "q4_opt2",
+            "text": "擁有更多新奇的經歷和體驗",
+            "points": { "planner": 0, "adventurer": 3, "observer": 0, "innovator": 1 }
+          },
+          {
+            "id": "q4_opt3",
+            "text": "對世界和自己有更深刻的理解",
+            "points": { "planner": 0, "adventurer": 0, "observer": 3, "innovator": 1 }
+          },
+          {
+            "id": "q4_opt4",
+            "text": "創造出更有意義和創新的作品",
+            "points": { "planner": 1, "adventurer": 0, "observer": 0, "innovator": 3 }
+          }
+        ]
+      }
+    }
+  ],
+  "personalityTypes": [
+    {
+      "id": "planner",
+      "name": "規劃者",
+      "title": "你的個人特質：規劃者",
+      "description": "你是一個喜歡計劃和組織的人，善於設定目標並制定詳細的執行步驟。你注重效率和結構，喜歡將事情井然有序地安排好。在面對挑戰時，你會先分析情況，然後制定周密的計劃來應對。",
+      "strengths": ["組織能力", "邏輯思維", "高效執行"],
+      "challenges": ["可能過於依賴計劃", "面對變化時適應性較低", "有時可能忽略直覺和創意"],
+      "advice": "嘗試在計劃中留出更多彈性空間，接受偶爾的不確定性。培養即興應變的能力，這將使你的計劃更加靈活有效。",
+      "color": "#3B82F6",
+      "traits": {
+        "組織能力": 90,
+        "邏輯思維": 85,
+        "適應性": 60,
+        "創新思維": 65
+      },
+      "img": "planner.png"
+    },
+    {
+      "id": "adventurer",
+      "name": "冒險者",
+      "title": "你的個人特質：冒險者",
+      "description": "你充滿活力和好奇心，喜歡探索新的可能性和體驗。你不害怕未知，反而被挑戰和新奇事物所吸引。你相信生活是一場冒險，願意跳出舒適圈去發現更廣闊的世界。",
+      "strengths": ["冒險精神", "適應能力", "開放心態"],
+      "challenges": ["可能缺乏長期規劃", "有時會錯過細節", "可能過於追求刺激"],
+      "advice": "在冒險精神中加入一些計劃元素，設定長期目標，這將幫助你的探索更有方向。記錄你的經歷和感受，這將使你的冒險更加有意義。",
+      "color": "#F59E0B",
+      "traits": {
+        "冒險精神": 90,
+        "適應能力": 85,
+        "開放心態": 80,
+        "專注力": 60
+      },
+      "img": "adventurer.png"
+    },
+    {
+      "id": "observer",
+      "name": "觀察者",
+      "title": "你的個人特質：觀察者",
+      "description": "你擁有敏銳的觀察力和深度思考能力，善於捕捉細節並洞察事物本質。你喜歡先觀察情況，然後再做出判斷和行動。你能夠看到別人可能忽略的微妙之處，理解複雜的關係和模式。",
+      "strengths": ["洞察力", "分析能力", "耐心"],
+      "challenges": ["可能過於沉浸在思考中", "有時猶豫不決", "可能較少表達自己的想法"],
+      "advice": "嘗試將你的觀察和洞察更積極地分享出來，你的視角對他人很有價值。適時地將思考轉化為行動，這將使你的洞察產生更實際的影響。",
+      "color": "#8B5CF6",
+      "traits": {
+        "洞察力": 90,
+        "分析能力": 85,
+        "觀察細節": 80,
+        "行動力": 65
+      },
+      "img": "observer.png"
+    },
+    {
+      "id": "innovator",
+      "name": "創新者",
+      "title": "你的個人特質：創新者",
+      "description": "你是一個充滿創意和想像力的人，喜歡尋找新的方法和解決方案。你不受傳統思維的限制，善於從不同角度看問題。在面對挑戰時，你能夠想出獨特而有效的應對方式。",
+      "strengths": ["創新思維", "靈活性", "解決問題的能力"],
+      "challenges": ["可能過於追求新穎", "有時難以落實想法", "可能低估實際執行的難度"],
+      "advice": "學習如何將你的創意轉化為具體可行的步驟，這將使你的創新更有影響力。與具有執行力的夥伴合作，可以幫助你的想法更好地實現。",
+      "color": "#10B981",
+      "traits": {
+        "創新思維": 90,
+        "靈活性": 85,
+        "想像力": 80,
+        "實用性": 65
+      },
+      "img": "innovator.png"
+    }
+  ]
+}
