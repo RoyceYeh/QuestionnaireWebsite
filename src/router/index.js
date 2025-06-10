@@ -32,6 +32,11 @@ const router = createRouter({
       component: ResultPage,
       meta: { title: '探索結果 - 心靈探索之旅' },
     },
+    // 添加 catch-all 路由，防止未匹配的路徑
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/',
+    },
   ],
 })
 
