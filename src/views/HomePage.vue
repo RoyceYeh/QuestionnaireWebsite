@@ -1,10 +1,17 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useQuestionnaireStore } from '@/stores'
 
 const showBanner = ref(false)
 const showTitle = ref(false)
 const showDesc = ref(false)
 const showButton = ref(false)
+const store = useQuestionnaireStore()
+
+// 處理重新開始
+function handleReset() {
+  store.resetQuestionnaire()
+}
 
 onMounted(() => {
   // 按順序顯示元素
@@ -60,6 +67,7 @@ onMounted(() => {
           <Transition name="fade-scale">
             <div v-if="showButton" class="flex px-4 py-3">
               <Router-link
+                @click="handleReset"
                 to="/name"
                 class="pulse-button flex min-w-[84px] max-w-[768px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 flex-1 bg-[#b319e6] text-white text-base font-bold leading-normal tracking-[0.015em]"
               >
